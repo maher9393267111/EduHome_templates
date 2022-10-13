@@ -8,7 +8,7 @@
     var stick = $(".header-sticky");
 	windows.on('scroll',function() {    
 		var scroll = windows.scrollTop();
-		if (scroll < 5) {
+		if (scroll < 100) {
 			stick.removeClass("sticky");
 		}else{
 			stick.addClass("sticky");
